@@ -1,4 +1,100 @@
-﻿@import url(https://fonts)
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto;wght@300&display=swap');
 
-body {
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#66C7D0;
+    font-family:'Roboto', sans-serif;    
+}
+
+.start-q-btn {
+    all: unset;
+    padding: 15px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    color: #66C7D0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:10px;
+    overflow:hidden;
+    display:none;
+}
+
+.top-bar {
+    height: 600px;
+    width: 400px;
+    box-shadow: rgba(0,0,0,0.24) 0px,3px,8px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+}
+
+.question-counter {
+    position:relative;
+    left:30px;
+}
+
+.timer {
+    height:35px;
+    width:80px;
+    border-radius:3px;
+    position:absolute;
+    right:20px;
+}
+
+.timer > span:nth-child(1) {
+       color:#696969;
+       font-size:23px;
+       position:relative;
+       top:1px;
+       left:13px;
+}
+
+.timer > span:nth-child(2) {
+    color:black;
+    position:relative;
+    top:0px;
+    left:10px;
+    padding:3px, 10px,3px,10px;
+    border-radius:3px;
+    font-size:20px;
+}
+
+.q_text {
+    height: 100px;
+    width: 350px;
+    color: #7b8295;
+    position: relative;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    align-items:center;
+    font-weight:600;
+}
+
+.q_text > span {
+    font-size:20px;
+    color:black;
+    margin-left:5px;
 }
