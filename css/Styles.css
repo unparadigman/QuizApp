@@ -99,14 +99,14 @@ body{
     margin-left:5px;
 }
 
-.option_div {
+.option-div {
     height:350px;
     width:100%;
     position:relative;
     top:85px;
 }
 
-.option_div > .option {
+.option-div > .option {
     position: relative;
     top: 5px;
     left: 50%;
@@ -200,3 +200,66 @@ nxt-q-btn.click-disable {
     display:none;    
 }
 
+result-div .fa-crown {
+    color: #66C7D0;
+    font-size: 120px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.result-div span {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    white-space:nowrap;
+}
+
+.result-div .score {
+    position:absolute;
+    top:205px;
+    height:30px;
+    width:100%;
+    color:black;
+}
+
+.score > span {
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+}
+
+.replay-quiz-btn {
+    all: unset;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    width: 330px;
+    background: #66C7D0;
+    white-space: nowrap;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #66C7D0;
+}
+
+.time_line {
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:4px;
+    background: #66C7D0;
+}
+
+::selection {
+    color: white;
+    background: #66C7D0;
+}
